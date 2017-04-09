@@ -20,7 +20,7 @@
       "trillion": "<small>x10<sup>12</sup></small>"
     },
     "ordinal": function (number) {
-      return (number === 1) ? 'er' : 'ième';
+      return (number === 1) ? 'ero' : (number === 2) ? 'do' : (number === 3) ? 'ro' : (number === 4) ? 'to' : (number === 5) ? 'to' : (number === 6) ? 'to' : (number === 7) ? 'to' : (number === 8) ? 'vo' : (number === 9) ? 'no' : (number === 10) ? 'mo';
     },
     "currency": {
       "symbol": "X"
